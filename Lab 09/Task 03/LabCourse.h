@@ -15,6 +15,7 @@ class LabCourse:public Course{
         float i;
         cout<<"Enter your percentage: ";
         cin>>i;
+        cout<<"Your Grade is: ";
         if(i>100||i<0){
             cout<<"Invalid Marks"<<endl;
         }

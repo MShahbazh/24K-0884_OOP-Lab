@@ -1,9 +1,10 @@
 #include<iostream>
+#include"Course.h"
 #include"LabCourse.h"
 using namespace std;
 
 int main(){
-    LabCourse Lab("CS1004",1);
-    Lab.calculateGrade();
-    Lab.displayInfo();
+    Course* course=new LabCourse("CS1004",1);
+    course->calculateGrade();
+    course->displayInfo();
 }
